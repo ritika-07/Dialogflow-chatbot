@@ -1,0 +1,50 @@
+{
+  "id": "7c1ded7b-900e-4fc4-9ff3-1c5eb191db04",
+  "parentId": "f949a848-e568-4791-add0-4b6125065832",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "q7",
+  "auto": true,
+  "contexts": [
+    "q1-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-no.q1-no-no",
+      "affectedContexts": [
+        {
+          "name": "q1-no-no-followup",
+          "lifespan": 2
+        },
+        {
+          "name": "q7-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "do you strive for a professional life over a personal one?",
+            "are more career driven than family oriented?",
+            "would you give your career the utmost priority?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "bc019746-f9b8-4fce-9ae7-9e84332278fd",
+  "parentId": "d66bbcbe-c591-437b-adcd-60b4249e7947",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "q3",
+  "auto": true,
+  "contexts": [
+    "q2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-yes.q2-yes",
+      "affectedContexts": [
+        {
+          "name": "q3-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "is your approach to life methodological?",
+            "do you love to plan your life ahead?",
+            "do you love sticking to a perfect routine in life?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,36 @@
+{
+  "id": "d4d6fada-e131-4599-9f3c-e559206145fc",
+  "parentId": "cf4d85a2-4830-4e00-965c-266571f905a1",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "q1 - no - no - yes - no",
+  "auto": true,
+  "contexts": [
+    "q1-no-no-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-no.q1-no-no.q1-no-no-yes.q1-no-no-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

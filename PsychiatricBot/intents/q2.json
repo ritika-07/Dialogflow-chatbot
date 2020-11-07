@@ -1,0 +1,46 @@
+{
+  "id": "d66bbcbe-c591-437b-adcd-60b4249e7947",
+  "parentId": "375b8c79-b019-4d3e-87b8-80ab3cf32ee7",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "q2",
+  "auto": true,
+  "contexts": [
+    "q1-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-yes",
+      "affectedContexts": [
+        {
+          "name": "q2-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "do you love exploring unrealistic yet intriguing ideas?",
+            "are you a day dreamer?",
+            "do you often catch yourself thinking about perfect imaginary scenarios?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

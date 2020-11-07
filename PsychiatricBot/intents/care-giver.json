@@ -1,0 +1,39 @@
+{
+  "id": "bc2d66c3-c85c-429c-851a-f80e32c47b95",
+  "parentId": "bc019746-f9b8-4fce-9ae7-9e84332278fd",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "care-giver",
+  "auto": true,
+  "contexts": [
+    "q3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-yes.q2-yes.q3-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your personality is \u0027ENTJ: CARE-GIVER\u0027. You are someone with the Extraverted, Intuitive, Thinking, and Judging personality traits. You are a decisive person who loves momentum and accomplishment. You gather information to construct your creative visions but rarely hesitate for long before acting on them."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

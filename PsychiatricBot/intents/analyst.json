@@ -1,0 +1,39 @@
+{
+  "id": "4ab35dfd-d615-4f7b-95a3-8b07ba4ed2d4",
+  "parentId": "279d8f4f-5cdc-4ae5-aea4-833d051d99c7",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "analyst",
+  "auto": true,
+  "contexts": [
+    "q1-no-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-no.q1-no-yes.q1-no-yes-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your personality is \"ISTP: Analyst\". You are someone with the Introverted, Observant, Thinking, and Prospecting personality traits. You tend to have an individualistic mindset, pursuing goals without needing much external connection. You engage in life with inquisitiveness and personal skill, varying your approach as needed."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

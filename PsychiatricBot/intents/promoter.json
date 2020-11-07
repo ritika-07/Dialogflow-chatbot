@@ -1,0 +1,39 @@
+{
+  "id": "09c08691-1717-4a7a-9ebb-f347410ace41",
+  "parentId": "b5213e00-91d2-4a0d-b483-f348cd6dc89b",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "promoter",
+  "auto": true,
+  "contexts": [
+    "q4-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-yes.q2-no.q4-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your personality is \"ESFP: Promoter\". You are a person with the Extraverted, Observant, Feeling, and Prospecting personality traits. You love vibrant experiences, engaging in life eagerly and taking pleasure in discovering the unknown. You can be very social, often encouraging others into shared activities."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

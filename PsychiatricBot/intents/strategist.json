@@ -1,0 +1,44 @@
+{
+  "id": "cf4d85a2-4830-4e00-965c-266571f905a1",
+  "parentId": "7c1ded7b-900e-4fc4-9ff3-1c5eb191db04",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "strategist",
+  "auto": true,
+  "contexts": [
+    "q1-no-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-no.q1-no-no.q1-no-no-yes",
+      "affectedContexts": [
+        {
+          "name": "q1-no-no-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your personality is \"INTJ: Strategist\". You are a person with the Introverted, Intuitive, Thinking, and Judging personality traits. You are a thoughtful tactician who loves perfecting the details of life, applying creativity and rationality to everything you do. Your inner world is often a private, complex one."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

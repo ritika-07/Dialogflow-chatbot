@@ -1,0 +1,48 @@
+{
+  "id": "375b8c79-b019-4d3e-87b8-80ab3cf32ee7",
+  "parentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "q1",
+  "auto": true,
+  "contexts": [
+    "start_quiz-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes",
+      "affectedContexts": [
+        {
+          "name": "q1-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Are you comfortable in social gatherings?",
+            "Are you a people person?",
+            "Do you enjoy being among a lot of people?",
+            "Do you love meeting new people?",
+            "Do you enjoy being among large crowds of people?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

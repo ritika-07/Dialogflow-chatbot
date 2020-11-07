@@ -1,0 +1,46 @@
+{
+  "id": "b5213e00-91d2-4a0d-b483-f348cd6dc89b",
+  "parentId": "d66bbcbe-c591-437b-adcd-60b4249e7947",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "q4",
+  "auto": true,
+  "contexts": [
+    "q2-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-yes.q2-no",
+      "affectedContexts": [
+        {
+          "name": "q4-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "do you work well under pressure?",
+            "you handle stress well?",
+            "are you comfortable in high pressure situations?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

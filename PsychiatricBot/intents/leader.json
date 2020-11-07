@@ -1,0 +1,39 @@
+{
+  "id": "e930d3c8-4eb1-4ee7-b6fa-3be1a627d42b",
+  "parentId": "bc019746-f9b8-4fce-9ae7-9e84332278fd",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "leader",
+  "auto": true,
+  "contexts": [
+    "q3-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-yes.q2-yes.q3-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your personality is \"ENFP: Leader\". You are someone with the Extraverted, Intuitive, Feeling, and Prospecting personality traits. You tend to embrace big ideas and actions that reflect your sense of hope and goodwill toward others. Your vibrant energy can flow in many directions."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

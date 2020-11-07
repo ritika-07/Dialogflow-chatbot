@@ -1,0 +1,9 @@
+{
+  "id": "d800c380-ada4-4218-8fce-3c815f0f6edb",
+  "name": "doctor",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

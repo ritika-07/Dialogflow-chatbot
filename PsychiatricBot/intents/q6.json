@@ -1,0 +1,46 @@
+{
+  "id": "279d8f4f-5cdc-4ae5-aea4-833d051d99c7",
+  "parentId": "f949a848-e568-4791-add0-4b6125065832",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "q6",
+  "auto": true,
+  "contexts": [
+    "q1-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-no.q1-no-yes",
+      "affectedContexts": [
+        {
+          "name": "q1-no-yes-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "are you capable of taking quick decisions?",
+            "do you think you are a decisive person?",
+            "are you pretty confident while making a decision within a short time?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

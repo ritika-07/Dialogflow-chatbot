@@ -1,0 +1,39 @@
+{
+  "id": "6c8066d6-3eeb-474a-9558-729b2becfacd",
+  "parentId": "279d8f4f-5cdc-4ae5-aea4-833d051d99c7",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "inspector",
+  "auto": true,
+  "contexts": [
+    "q1-no-yes-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-no.q1-no-yes.q1-no-yes-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your personality is \"ISTJ: Inspector\". You are someone with the Introverted, Observant, Thinking, and Judging personality traits. You tend to be reserved yet wilful, with a rational outlook on life. You compose your actions carefully and carry them out with methodical purpose."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

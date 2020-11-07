@@ -1,0 +1,40 @@
+{
+  "id": "54700442-f48c-4af0-98fd-375faa7bc022",
+  "parentId": "7c1ded7b-900e-4fc4-9ff3-1c5eb191db04",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "counselor",
+  "auto": true,
+  "contexts": [
+    "q1-no-no-followup",
+    "q7-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-no.q1-no-no.q7-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your personality is \"INTP: Counselor\". You are someone with the Introverted, Intuitive, Thinking, and Prospecting personality traits. You are a flexible thinker who enjoys taking an unconventional approach to many aspects of life. You often seek out unlikely paths, mixing willingness to experiment with personal creativity."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

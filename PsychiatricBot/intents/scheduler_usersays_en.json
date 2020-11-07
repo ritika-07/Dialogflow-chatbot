@@ -1,0 +1,151 @@
+[
+  {
+    "id": "8548b0d8-44e0-459a-b095-759a80865d96",
+    "data": [
+      {
+        "text": "Set an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "5pm",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "Sunday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": " with ",
+        "userDefined": false
+      },
+      {
+        "text": "Dr. Savita",
+        "meta": "@doctor",
+        "alias": "doctor",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8d5efcac-cbf9-4693-8728-822fa9142854",
+    "data": [
+      {
+        "text": "Make an appointment with ",
+        "userDefined": false
+      },
+      {
+        "text": "Dr. Brahm Kapur",
+        "meta": "@doctor",
+        "alias": "doctor",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "990acfbe-63a7-44ca-ba5b-e422eed81779",
+    "data": [
+      {
+        "text": "Reserve the ",
+        "userDefined": false
+      },
+      {
+        "text": "5 o\u0027clock",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "23rd",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      },
+      {
+        "text": " for my appointment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "904b3bad-1185-4cca-aee3-e093554c20ec",
+    "data": [
+      {
+        "text": "make an appointment for ",
+        "userDefined": false
+      },
+      {
+        "text": "3:30pm",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "Saturday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "b39e8c8c-b099-4efc-bf27-6f4154e9b271",
+    "data": [
+      {
+        "text": "set an appointment on ",
+        "userDefined": false
+      },
+      {
+        "text": "Wednesday",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": false
+      },
+      {
+        "text": " at ",
+        "userDefined": false
+      },
+      {
+        "text": "2pm",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

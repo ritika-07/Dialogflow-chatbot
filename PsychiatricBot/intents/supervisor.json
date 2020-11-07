@@ -1,0 +1,39 @@
+{
+  "id": "ad2514cb-bbaf-48dd-adb6-f04f1b0c7c88",
+  "parentId": "b5213e00-91d2-4a0d-b483-f348cd6dc89b",
+  "rootParentId": "33200c2d-a846-497e-9157-e8484da266a2",
+  "name": "supervisor",
+  "auto": true,
+  "contexts": [
+    "q4-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "start_quiz.start_quiz-yes.q1-yes.q2-no.q4-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Your personality is \"ESTJ: Supervisor\".You are someone with the Extraverted, Observant, Thinking, and Judging personality traits. You possess great fortitude, emphatically following their own sensible judgment. You often serve as a stabilising force among others, able to offer solid direction amid adversity."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
